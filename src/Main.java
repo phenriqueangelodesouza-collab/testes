@@ -44,8 +44,7 @@ public class Main {
                 System.out.println("Digite o nome do seu Guerreiro: ");
                 nome = input.next();
 
-                System.out.printf("Digite o HP maximo de %s", nome);
-                System.out.println();
+                System.out.printf("Digite o HP maximo de %s \n", nome);
                 hp = input.nextInt();
 
                 System.out.println("Digite seu HP de agora: ");
@@ -57,12 +56,10 @@ public class Main {
                 System.out.println("Insira seus pontos de mana: ");
                 pMan = input.nextInt();
 
-                System.out.printf("Digite o dano de %s: ", nome);
-                System.out.println();
+                System.out.printf("Digite o dano de %s: \n", nome);
                 atak = input.nextInt();
 
-                System.out.printf("Digite a defesa de %s: ", nome);
-                System.out.println();
+                System.out.printf("Digite a defesa de %s: \n", nome);
                 def = input.nextInt();
 
                 //MONTANDO A MOCHILA
@@ -97,8 +94,7 @@ public class Main {
                 System.out.println("Digite o nome do seu Mago: ");
                 nome = input.next();
 
-                System.out.printf("Digite o HP maximo de %s", nome);
-                System.out.println();
+                System.out.printf("Digite o HP maximo de %s \n", nome);
                 hp = input.nextInt();
 
                 System.out.println("Digite seu HP de agora: ");
@@ -110,12 +106,10 @@ public class Main {
                 System.out.println("Digite o limite do ponto de mana: ");
                 mpMax = input.nextInt();
 
-                System.out.printf("Digite o dano de %s: ", nome);
-                System.out.println();
+                System.out.printf("Digite o dano de %s: \n", nome);
                 atak = input.nextInt();
 
-                System.out.printf("Digite a defesa de %s: ", nome);
-                System.out.println();
+                System.out.printf("Digite a defesa de %s: \n", nome);
                 def = input.nextInt();
 
                 //MONTANDO OS ITENS
